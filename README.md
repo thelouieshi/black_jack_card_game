@@ -1,9 +1,8 @@
 Black_Jack-code sample
 # This is a code sample for a python Black Jack game. 
-# Anybody can copy and paste this code and play Black Jack in your console. 
-# Please let me know if you have any feedbacks. 
-# Have a great day!
-# Louie Shi
+# Anybody can copy and paste this code and play Black Jack in your console. Please let me know if you have any feedbacks.
+# Have a great day! - Louie Shi
+
 
 GAME RULES:
 1. This is a Black Jack game. 
