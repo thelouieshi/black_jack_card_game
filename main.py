@@ -76,5 +76,5 @@ while continue_playing:
     print("good bye")
     continue_playing = False
 
-    
-    
+# For more of my projects, fun games and useful applications, 
+# please visit https://github.com/thlouieshi?tab=repositories
