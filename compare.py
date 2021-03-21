@@ -1,3 +1,5 @@
+# rule: if both dealer and user bust, dealer wins
+
 class Compare:
     def compare_cards(self, user, dealer): 
         if user == 0 and dealer != 0: 
