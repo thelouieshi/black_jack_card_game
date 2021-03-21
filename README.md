@@ -2,7 +2,7 @@ Black_Jack-code sample
 # This is a code sample for a python Black Jack game. 
 Anybody can copy and paste this code and play Black Jack in your console. Please let me know if you have any feedbacks.
 You can the game in console here: https://repl.it/@LouieShi/BlackJackGame#main.py
-Please down the entire folder as the game is made with Object Oriented Programming (OOP).
+Please down the entire folder as the game is made with Object-Oriented Programming (OOP).
 
 GAME RULES:
 1. This is a Black Jack game. 
