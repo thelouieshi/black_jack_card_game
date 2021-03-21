@@ -1,5 +1,5 @@
 # Play Black Jack in the console:. You can play the game here:  https://replit.com/@LouieShi/BlackJack-Card#main.py
-# The Classes are under the same repository. 
+# Object-oriented programming classes are under the same repository. 
 # The computer is the dealer and user is the player. 
 # Ace is 11 when hand is <= 21, Ace is 1 when hand is larger than 21.
 
