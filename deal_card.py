@@ -1,3 +1,5 @@
+# rules: no jokers, Jack, Queen, and King are 10s
+
 import random
 
 class Deal_Card:
