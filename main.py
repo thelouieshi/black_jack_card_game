@@ -5,7 +5,7 @@
 
 # imported classes from .py in the same repository
 from calculate_score import Calculate_Score  # calculate dealer and user's hands' score
-from import Compare  # compare dealer and user hands/scores and return a result that can be printed in the console
+from compare import Compare  # compare dealer and user hands/scores and return a result that can be printed in the console
 from deal_card import Deal_Card  # cards attribute and functions to deal either 1 or 2 cards. 
 
 calculate_score = Calculate_Score()
@@ -33,7 +33,7 @@ def blackjack():
       print(f"dealer new hand is {dealer_hand}.")
       user_hand.append(deal_card.deal_one_card())
       print(f"your hand is {user_hand}.")
-      # this might be confusing, but the following 3 if/elif statements are here to stop the game if either dealer or user bust (more than 21 points)
+      # this might be confusing, but the following 3 if/elif statements are here to stop the game if either dealer or user bust (more than 21 points) after adding another card.
       if calculate_score.calculate(user_hand) > 21 and calculate_score.calculate(dealer_hand)<21:
         print(f"BUST, YOU LOST!")
         game_on = False
@@ -43,7 +43,7 @@ def blackjack():
       elif calculate_score.calculate(dealer_hand) > 21 and calculate_score.calculate(user_hand) > 21:
         game_on = False
         print("BOTH BUST, YOU LOST.")
-    # this is when user decideds to stop dealing and all cards
+    # the following is what happens when user decideds to stop dealing and all cards
     else:
       user_score = calculate_score.calculate(user_hand)
       dealer_score = calculate_score.calculate(dealer_hand)
