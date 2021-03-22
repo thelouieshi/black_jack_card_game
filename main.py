@@ -78,3 +78,5 @@ while continue_playing:
 
 # For more of my projects, fun games and useful applications, 
 # please visit https://github.com/thlouieshi?tab=repositories
+# For example, an application that allows you automatically text yourself rain/snow condition of any location, also to remind yourself to take a break once a while:
+# https://github.com/thlouieshi/weather_puppy_text/blob/main/main.py
