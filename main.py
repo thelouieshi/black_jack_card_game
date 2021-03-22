@@ -5,7 +5,7 @@
 
 # imported classes from .py in the same repository
 from calculate_score import Calculate_Score  # calculate dealer and user's hands' score
-from compare import Compare  # compare dealer and user hands/scores and return a result that can be printed in the console
+from import Compare  # compare dealer and user hands/scores and return a result that can be printed in the console
 from deal_card import Deal_Card  # cards attribute and functions to deal either 1 or 2 cards. 
 
 calculate_score = Calculate_Score()
@@ -58,12 +58,12 @@ def blackjack():
           if sum(dealer_hand) < 17:
             dealer_add_card = True
           else: 
-            print(compare.compare(user=user_score, dealer=dealer_score))
+            print(compare.compare_cards(user=user_score, dealer=dealer_score))
             game_on = False
             dealer_add_card = False
       
       else: 
-        print(compare.compare(user=user_score, dealer=dealer_score))
+        print(compare.compare_cards(user=user_score, dealer=dealer_score))
         game_on = False
 
 # the following code is to control calling the blackjack function
